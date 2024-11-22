@@ -94,7 +94,8 @@ const debouncedScroll = debounce(scroll, 50);
   display: flex;
 
   max-width: 600px;
-  height: calc(98vh - 50px);
+  width: 100%;
+  height: calc(100vh - 50px);
   margin: auto;
 
   -ms-overflow-style: none;
@@ -123,8 +124,9 @@ const debouncedScroll = debounce(scroll, 50);
 
   img {
     height: 100%;
+    width: 100%;
     margin: auto;
-    object-fit: contain;
+    object-fit: cover;
     object-position: top;
   }
 }
