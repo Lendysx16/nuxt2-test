@@ -81,6 +81,7 @@ onUnmounted(() => {
 
   @media screen and (width > 1200px) {
     width: 50%;
+    margin: unset;
   }
 }
 

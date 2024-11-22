@@ -141,6 +141,10 @@ const currentColor = ref(0);
   background-color: #4f4f4f;
 }
 
+.accordions {
+  max-width: 360px;
+}
+
 .color-name {
   margin-bottom: 6px;
   color: #4f4f4f;
@@ -165,6 +169,7 @@ const currentColor = ref(0);
 
 .actions-add {
   flex: 1;
+  max-width: 306px;
 
   height: 44px;
 
