@@ -94,7 +94,7 @@ const debouncedScroll = debounce(scroll, 50);
   display: flex;
 
   max-width: 600px;
-  height: calc(100svh - 50px);
+  height: calc(98vh - 50px);
   margin: auto;
 
   -ms-overflow-style: none;
