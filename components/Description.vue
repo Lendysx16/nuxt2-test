@@ -159,18 +159,18 @@ const currentColor = ref(0);
   gap: 10px;
   align-items: center;
 
-  margin-bottom: 40px;
-
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .actions-add {
-  text-transform: uppercase;
   flex: 1;
+
   height: 44px;
 
   font-size: 11px;
   color: #fff;
+  text-transform: uppercase;
 
   background-color: #000;
   border: none;
@@ -198,9 +198,11 @@ const currentColor = ref(0);
 
 .accordion {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+
   height: 41px;
+
   border-top: 1px solid #e0e0e0;
 }
 
@@ -210,14 +212,14 @@ const currentColor = ref(0);
 
 .accordion-title {
   font-weight: normal;
-  color: #333333;
+  color: #333;
   text-transform: uppercase;
 }
 
 .accordion-toggle {
+  cursor: pointer;
   display: flex;
   align-items: center;
-  color: #333333;
-  cursor: pointer;
+  color: #333;
 }
 </style>

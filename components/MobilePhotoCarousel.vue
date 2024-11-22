@@ -85,7 +85,6 @@ const debouncedScroll = debounce(scroll, 50);
 <style>
 .carousel {
   scrollbar-width: none;
-  -ms-overflow-style: none;
   scroll-padding: 0 50px;
   scroll-snap-type: x mandatory;
 
@@ -97,6 +96,8 @@ const debouncedScroll = debounce(scroll, 50);
   max-width: 600px;
   height: calc(100svh - 50px);
   margin: auto;
+
+  -ms-overflow-style: none;
 
   ::-webkit-scrollbar {
     width: 0;
@@ -121,8 +122,8 @@ const debouncedScroll = debounce(scroll, 50);
   height: 100%;
 
   img {
-    width: 100%;
     height: 100%;
+    margin: auto;
     object-fit: contain;
     object-position: top;
   }

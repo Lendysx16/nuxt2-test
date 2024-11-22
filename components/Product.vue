@@ -64,6 +64,7 @@ onUnmounted(() => {
   display: flex;
   flex-direction: column;
   gap: 31px;
+
   margin: auto;
   margin-bottom: 42px;
 
@@ -90,18 +91,19 @@ onUnmounted(() => {
 
   @media screen and (width > 1200px) {
     width: 100%;
-    padding: 0 40px;
     margin-bottom: 100px;
+    padding: 0 40px;
   }
 }
 
 .simillar-products-title {
-  font-size: 12px;
-  line-height: 16px;
-  text-transform: uppercase;
-  font-weight: normal;
-  color: #333;
   margin-bottom: 31px;
+
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 16px;
+  color: #333;
+  text-transform: uppercase;
 }
 
 .similar-products-cards {

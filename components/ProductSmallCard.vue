@@ -43,16 +43,16 @@ defineProps<Props>();
   font-weight: normal;
 
   @media screen and (width > 1200px) {
-    padding-left: 15px;
     max-width: 100%;
+    padding-left: 15px;
   }
 }
 
 .product-small-card-name {
-  text-transform: uppercase;
+  margin-bottom: 10px;
   font-size: 10px;
   font-weight: normal;
-  margin-bottom: 10px;
+  text-transform: uppercase;
 
   @media screen and (width > 1200px) {
     text-transform: none;
@@ -60,9 +60,10 @@ defineProps<Props>();
 }
 
 .product-small-card-last-price {
-  text-decoration: line-through;
   color: #828282;
+  text-decoration: line-through;
 }
+
 .product-small-card-price {
   margin-right: 10px;
   color: #828282;
